@@ -4,12 +4,12 @@ A silly C  program example to demonstrate doxygen
 ## Requirements
 - Doxygen
 - GraphViz (dot) [optionally]
-- make [on *nix]
 
 If generating PDFs:
 - PDF-LaTeX (I use MikTex). This may ask for permission, and install sub packages 
 during a make operation
 - Ghostscript
+- make [on *nix]
 
 ## Generate documentation
 - To generate doxygen documentation run:
@@ -17,7 +17,7 @@ during a make operation
 ```
 doxygen ./doxygen/Doxyfile
 ```
-Generate HTML will be located in the location specified by the Doxyfile, in this 
+Generated HTML will be located in the location specified by the Doxyfile, in this 
 case `./doxygen/documentation/html`.
 
 - If also generating a PDF, an extra step is required. **this can take a long 
@@ -29,7 +29,9 @@ time, especially on large projects**:
     ```
 
     - On *nix:
+    
     ```
     $ make all -C ./doxygen/documentation/latex/
     ```
+    
 The resulting PDF is named refman.pdf and is placed in the latex directory.
