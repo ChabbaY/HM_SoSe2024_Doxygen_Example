@@ -5,7 +5,7 @@
 Example [doxygen] documentation website using GitLab Pages.
 
 Learn more about GitLab Pages at https://pages.gitlab.io and the official
-documentation http://doc.gitlab.com/ee/pages/README.html.
+documentation https://docs.gitlab.com/ce/user/project/pages/.
 
 ---
 
@@ -93,5 +93,5 @@ unless you want to contribute back to the upstream project.
 [doxygen]: http://www.stack.nl/~dimitri/doxygen/index.html
 [install]: http://www.stack.nl/~dimitri/doxygen/manual/install.html
 [documentation]: http://www.stack.nl/~dimitri/doxygen/manual/index.html
-[userpages]: http://doc.gitlab.com/ee/pages/README.html#user-or-group-pages
-[projpages]: http://doc.gitlab.com/ee/pages/README.html#project-pages
+[userpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#user-or-group-pages
+[projpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#project-pages
