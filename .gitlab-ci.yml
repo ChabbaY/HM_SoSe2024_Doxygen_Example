@@ -11,6 +11,9 @@ test:
   - doxygen doxygen/Doxyfile
   rules:
     - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
+  tags: 
+    - debian
+  
   
 pages:
   script:
@@ -21,3 +24,4 @@ pages:
     - public
   rules:
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+  tags: debian  
