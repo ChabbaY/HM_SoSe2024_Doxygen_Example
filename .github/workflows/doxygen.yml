@@ -1,0 +1,19 @@
+name: Generate Doxygen Documentation
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  generate:
+    name: Generate
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - uses: mattnotmitt/doxygen-action@v1.9.8
+      with:
+        working-directory: '.'
+        doxyfile-path: './doxygen/Doxyfile'
